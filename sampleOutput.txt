@@ -1,0 +1,55 @@
+BREAK DOWN START
+AAAAA: hash slot [6]
+END
+BREAK DOWN START
+AAAAA: hash slot [6]
+AAAA: hash slot [18]
+END
+BREAK DOWN START
+AAAAA: hash slot [6]
+AAAA: hash slot [18]
+AAA: hash slot [19]
+END
+BREAK DOWN START
+TTTTTTTTTTAAAAACCCA: hash slot [0]
+AAAAA: hash slot [6]
+AAAA: hash slot [18]
+AAA: hash slot [19]
+END
+BREAK DOWN START
+TTTTTTTTTTAAAAACCCA: hash slot [0]
+AAAAA: hash slot [6]
+AAAA: hash slot [18]
+AAA: hash slot [19]
+TCATATCTATCCAAAAAAAA: hash slot [62]
+END
+BREAK DOWN START
+TTTTTTTTTTAAAAACCCA: hash slot [0]
+AAAAA: hash slot [6]
+AAAA: hash slot [18]
+AAA: hash slot [19]
+TCATATCTATCCAAAAAAAA: hash slot [62]
+TCATATCTATCCAAAAAAA: hash slot [63]
+END
+BREAK DOWN START
+TTTTTTTTTTAAAAACCCA: hash slot [0]
+AAAAA: hash slot [6]
+AAAA: hash slot [18]
+AAA: hash slot [19]
+TCATATCTATCCAAAAAA: hash slot [32]
+TCATATCTATCCAAAAAAAA: hash slot [62]
+TCATATCTATCCAAAAAAA: hash slot [63]
+END
+Sequence Removed AAAAA:AAAATTTTCCCCGGGGAAAACCCCGGGGTTTTAAAATTTT
+Sequence Removed AAA:AAAA
+Sequence Removed AAAA:AAAATTTTCCCCGGGGAAAACCCCGGGGTTTTAAAATTTT
+BREAK DOWN START
+TTTTTTTTTTAAAAACCCA: hash slot [0]
+TCATATCTATCCAAAAAA: hash slot [32]
+TCATATCTATCCAAAAAAAA: hash slot [62]
+TCATATCTATCCAAAAAAA: hash slot [63]
+END
+SequenceID AAAAA not found
+Sequence Found: CCTTTTCCCCGGGGAAAACCCCGGGGTTTTAAAATTTT
+
+Process finished with exit code 0
