@@ -4,10 +4,12 @@ import java.io.IOException;
 
 public class HashFunction implements HashTable<String, HashObject> {
     private final HashObject[] hashes;
+    private final HashObject[] hashes1;
 
     // Constructor
     public HashFunction(int hashSize) {
-        this.hashes = new HashObject[hashSize];
+        this.hashes = new HashObject[hashSize/2];
+        this.hashes1 = new HashObject[hashSize/2];
     }
 
     // using folding on a string, summed 4 bytes at a time
@@ -22,7 +24,7 @@ public class HashFunction implements HashTable<String, HashObject> {
 
     //returns the hash value for a given ID
     public int hash(String id) {
-        return (int) sfold(id, hashes.length);
+        return (int) sfold(id, hashes.length);//Bucket
     }
 
     //inserts a HashObject into the hash table
@@ -31,7 +33,7 @@ public class HashFunction implements HashTable<String, HashObject> {
         int hashValue = hash(id);
 
         for (int i = 0; i < hashes.length; i++) {
-            int index = (hashValue + i) % hashes.length;
+            int index = (hashValue + i) % 32;
 
             if (hashes[index] == null) {
                 hashes[index] = hashObject;
@@ -83,6 +85,9 @@ public class HashFunction implements HashTable<String, HashObject> {
                 result[index++] = hashObject;
             }
         }
+        FileWriter fw = new FileWriter("Output.txt");
+
+
         return result;
     }
 
