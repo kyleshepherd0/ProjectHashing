@@ -1,6 +1,12 @@
+/************************************************************************
+ * @file DNAdbase.java
+ * @brief This program includes the main in which it takes me the command
+ *        line arguments and then helps to process the database commands
+ * @author Pelin Blanton and Kyle Shepherd
+ * @date December 8, 2023
+ ************************************************************************/
 import java.io.File;
 import java.io.IOException;
-
 public class DNAdbase {
 
     private static int hashSize;

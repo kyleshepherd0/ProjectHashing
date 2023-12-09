@@ -1,4 +1,10 @@
-
+/************************************************************************
+ * @file DNAparser.java
+ * @brief This file is for the Hash table and implements different get and
+ *        set methods that help when coding other classes
+ * @author Pelin Blanton and Kyle Shepherd
+ * @date December 8, 2023
+ ************************************************************************/
 public class HashObject {
     // You might need other variables to finish the task
     String id;
@@ -19,7 +25,4 @@ public class HashObject {
     public String getSeq() {
         return seq;
     }
-
-    // You can add other functions if needed
-
 }
